@@ -1,0 +1,6 @@
+- hosts: localhost
+  vars:
+    username: Mary
+  tasks:
+  - debug: 
+      msg="Variable is set to {{ username }}"
